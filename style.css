@@ -12,11 +12,11 @@
     text-align: right;
 }
 
-.header-logo {
+.heder__logo {
     width: 100%;
 }
 
-.more-inf {
+.heder__link {
     font-family: fantasy, cursive;
 }
 
@@ -39,7 +39,7 @@
     flex-grow: 1;
 }
 
-.task-row-wrapper {
+.adding-element-list__task-row-wrapper {
     display: flex;
 }
 
@@ -57,7 +57,7 @@ input,button{
     outline: none;
 }
 
-.button {
+.btn {
     background: none;
     border: 0px;
     color: #888;
@@ -67,13 +67,13 @@ input,button{
     cursor: pointer;
 }
 
-.button:hover {
+.btn:hover {
     color: #3a3A3a;
 }
 
 /* Heading */
 h3,
-.new-task-label {
+.adding-element-list__task-label {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -101,7 +101,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.new-task-label{
+.adding-element-list__task-label{
     display: block;
     margin: 0 0 20px;
 }
@@ -139,13 +139,13 @@ li >    input[type="text"] {
     width: 226px;
 }
 
-.delete-img {
+.btn__delete-img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 };
 
-.delete-img:hover {
+.btn__delete-img:hover {
     transform: rotateZ(0);
 }
 
@@ -165,6 +165,6 @@ ul li.edit-mode input[type=text] {
     width: 224px;
 }
 
-ul li.edit-mode-label {
+ul li.edit-mode__label {
     display: none;
 }
